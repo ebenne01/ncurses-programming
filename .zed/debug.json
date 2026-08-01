@@ -1,0 +1,16 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+    "label": "Debug Current C Example",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/$ZED_STEM",
+    "env": {
+      "TERM": "xterm-256color",
+    },
+    "cwd": "$ZED_WORKTREE_ROOT",
+  },
+]
