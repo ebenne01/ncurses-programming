@@ -1,5 +1,5 @@
 /*
- * add.c
+ * add_full.c
  *
  * Demonstrates displaying full string of text
  * using ncurses.
